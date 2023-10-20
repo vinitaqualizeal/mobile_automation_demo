@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Error Validation">
+        <classes>
+            <class name="org.vinitagupta.eCommerce_TC_1">
+                <methods>
+                    <include name="FillForm_Positive_Flow"/>
+                </methods>
+            </class>
+            <class name="org.vinitagupta.eCommerce_TC_2">
+                <methods>
+                    <include name="FillForm_Error_Validation"/>
+                </methods>
+            </class>
+            <class name="org.vinitagupta.eCommerce_TC_3">
+                <methods>
+                    <include name="FillForm"/>
+                </methods>
+            </class>
+            <class name="org.vinitagupta.eCommerce_TC_4">
+                <methods>
+                    <include name="FillForm"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
